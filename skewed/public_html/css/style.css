@@ -25,13 +25,14 @@ h4{
     font-size: 20px;
 }
 main section{
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 /*Header Start*/
 
-header .bg-dark{
-    background-color: #000;
+header {
+    background-color: rgba(0,0,0,0.2);
+    padding: 25px 0;
 }
 .navbar .navbar-brand{
     font-weight: bold;
@@ -65,8 +66,41 @@ header .bg-dark{
 .lead-section h1{
     font-size: 50px;
 }
+.lead-section::after,
+.video::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    content: "";
+    background-size: 100% 100%;
+    background-image: url('../img/trougao-04.png');
+}
 
 /*About Us*/
 .about-us h2{
     font-family: 'Poppins', sans-serif;
+}
+.about-us .btn {
+    padding: 0.375rem 1.2rem;
+}
+
+/*Video*/
+
+.video h2{
+    font-family: 'Poppins', sans-serif;
+}
+.video h4{
+    color: #222222;
+}
+.video::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    content: "";
+    background-size: 100% 100%;
+    background-image: url('../img/trougao-02.png');
 }

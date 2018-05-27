@@ -1,6 +1,6 @@
 @media(min-width:576px){
     main section{
-        padding: 100px 0;
+        padding: 120px 0;
     }
 
 }
@@ -10,7 +10,7 @@
         font-size: 50px;
     }
     main section{
-        padding: 120px 0;
+        padding: 140px 0;
     }
     .navbar-nav .nav-item.active .nav-link,
     .navbar-nav .nav-item .nav-link:hover{
