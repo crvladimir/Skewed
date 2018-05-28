@@ -13,7 +13,10 @@ html{
 p{
     font-family: 'Roboto', sans-serif;  
 }
-
+body{
+     font-family: 'Roboto', sans-serif; 
+     color: #222222;
+}
 img{
     max-width: 100%;
 }
@@ -27,6 +30,9 @@ h4{
 }
 main section{
     padding: 100px 0;
+}
+.btn {
+    padding: 0.375rem 1.2rem;
 }
 
 /*Header Start*/
@@ -83,9 +89,6 @@ header {
 .about-us h2{
     font-family: 'Poppins', sans-serif;
 }
-.about-us .btn {
-    padding: 0.375rem 1.2rem;
-}
 
 /*Video*/
 
@@ -135,4 +138,29 @@ header {
     color: #ffc107;
     transform: rotate(360deg);
     transition: 0.6s linear;
+}
+
+/*Parallax*/
+.parallax::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    content: "";
+    background-size: 100% 100%;
+    background-image: url('../img/trougao-01.png');
+}
+.parallax {
+    background-attachment: fixed;
+}
+.parallax h4{
+    font-family: 'Poppins', sans-serif;
+}
+.parallax p{
+    color: #b1b1b1;
+}
+.parallax .btn {
+    padding: 0.375rem 1.2rem;
+    color: #ffc107;
 }
