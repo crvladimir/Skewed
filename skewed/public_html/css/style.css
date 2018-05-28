@@ -14,8 +14,8 @@ p{
     font-family: 'Roboto', sans-serif;  
 }
 body{
-     font-family: 'Roboto', sans-serif; 
-     color: #222222;
+    font-family: 'Roboto', sans-serif; 
+    color: #222222;
 }
 img{
     max-width: 100%;
@@ -89,7 +89,9 @@ header {
 .about-us h2{
     font-family: 'Poppins', sans-serif;
 }
-
+.btn-outline-warning:hover {
+    color: #fff;
+}
 /*Video*/
 
 .video h4{

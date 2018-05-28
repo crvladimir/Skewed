@@ -20,6 +20,9 @@
     .lead-section h1{
         font-size: 60px;
     }
+    .parallax p{
+        padding: 0 80px;
+    }
 }
 
 
@@ -37,9 +40,18 @@
     .lead-section h1{
         font-size: 80px;
     }
+    .parallax p{
+        padding: 0 140px;
+    }
 }
 
 @media(min-width:1200px){
-
+      main section{
+        padding: 300px 0;
+    }
+    .parallax p{
+        padding: 0 280px;
+    }
+    
 
 }
