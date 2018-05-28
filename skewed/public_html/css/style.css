@@ -20,6 +20,7 @@ img{
 h2{
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 h4{
     font-size: 20px;
@@ -88,11 +89,9 @@ header {
 
 /*Video*/
 
-.video h2{
-    font-family: 'Poppins', sans-serif;
-}
 .video h4{
     color: #222222;
+    font-family: 'Poppins', sans-serif;
 }
 .video::before{
     position: absolute;
@@ -103,4 +102,37 @@ header {
     content: "";
     background-size: 100% 100%;
     background-image: url('../img/trougao-02.png');
+}
+
+/*Team*/
+.team article figure{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+.team .social-hover{
+    width: 220px;
+    height: 220px;
+    top: 0;
+    left: 15px;
+    border-radius: 50%;
+    display: none;
+    line-height: 220px;
+    transition: 0.5s ease;
+}
+.team article:hover .social-hover{
+    display: block;
+}
+.team .social-hover .fa{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 40px;
+}
+.team .social-hover .fa:hover{
+    background: #fff;
+    color: #ffc107;
+    transform: rotate(360deg);
+    transition: 0.6s linear;
 }
