@@ -77,7 +77,8 @@ header {
     font-size: 50px;
 }
 .lead-section::after,
-.video::after{
+.video::after,
+.portfolio::after{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -99,7 +100,8 @@ header {
     color: #222222;
     font-family: 'Poppins', sans-serif;
 }
-.video::before{
+.video::before,
+.portfolio::before{
     position: absolute;
     top: 0;
     left: 0;
@@ -175,5 +177,36 @@ header {
     background-image: url('../img/trougao-03.png');
 }
 
-/*Principles*/
+/*Portfolio*/
 
+.portfolio h4{
+    color: #444;
+}
+.portfolio article figure{
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+}
+.portfolio .enlarge{
+    width: 280px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    line-height: 200px;
+    display: none;
+    transition: 0.5s ease;
+}
+.portfolio article:hover .enlarge{
+    display: block;
+}
+.portfolio .enlarge .fa{
+    width: 45px;
+    height: 45px;
+    border: 1px solid rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    line-height: 45px;
+}
+.portfolio .enlarge a{
+    color: #101010;
+}
