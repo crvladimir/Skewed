@@ -73,7 +73,7 @@ header {
 }
 
 /*Lead Section*/
-.lead-section h1{
+h1{
     font-size: 50px;
 }
 .lead-section::after,
@@ -209,4 +209,26 @@ header {
 }
 .portfolio .enlarge a{
     color: #101010;
+}
+
+/*Achievements*/
+
+.achievements h4{
+    font-family: 'Poppins', sans-serif;
+}
+.achievements h5{
+    color: #666;
+}
+
+.achievements .img-holder .fa{
+    width: 80px;
+    height: 80px;
+    border: 1px solid transparent;
+    line-height: 80px;
+    font-weight: bold;
+    font-size: 3.5rem;
+    overflow: hidden;
+}
+.achievements .quote-wrapper p{
+    color: #222;
 }
