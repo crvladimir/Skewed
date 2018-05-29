@@ -167,6 +167,9 @@ h1{
     padding: 0.375rem 1.2rem;
     color: #ffc107;
 }
+.parallax .btn:hover {
+    color: #fff;
+}
 .parallax::after{
     position: absolute;
     bottom: 0;
@@ -183,17 +186,11 @@ h1{
 .portfolio h4{
     color: #444;
 }
-.portfolio article figure{
-    width: 280px;
-    height: 200px;
-    overflow: hidden;
-}
+
 .portfolio .enlarge{
-    width: 280px;
-    height: 200px;
-    top: 0;
-    left: 0;
-    line-height: 200px;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
     display: none;
     transition: 0.5s ease;
 }
@@ -210,6 +207,7 @@ h1{
 }
 .portfolio .enlarge a{
     color: #101010;
+
 }
 
 /*Achievements*/
@@ -258,6 +256,11 @@ h1{
 .subscribe-form .btn {
     border-radius: 0.15rem;
     padding: 0.375rem 1.6rem;
+}
+.subscribe-form .btn:hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
 }
 .subscribe-form .form-control:focus {
     color: #fff;
