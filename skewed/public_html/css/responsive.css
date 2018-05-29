@@ -21,13 +21,16 @@
         font-size: 60px;
     }
     .parallax p{
-        padding: 0 80px;
+        max-width: 65%;
     }
     .achievements .achievements-wrapper{
         margin-bottom: 100px;
     }
     .achievements .quote-wrapper{
-        padding: 0 50px;
+        max-width: 65%;
+    }
+    footer{
+        padding: 50px 0;
     }
 }
 
@@ -46,26 +49,17 @@
     h1{
         font-size: 80px;
     }
-    .parallax p{
-        padding: 0 140px;
-    }
-     .achievements .achievements-wrapper{
+    .achievements .achievements-wrapper{
         margin-bottom: 150px;
     }
-    .achievements .quote-wrapper{
-        padding: 0 100px;
-    }
+    
 }
 
 @media(min-width:1200px){
-      main section{
+    main section{
         padding: 300px 0;
     }
-    .parallax p{
-        padding: 0 280px;
-    }
-     .achievements .quote-wrapper{
-        padding: 0 200px;
-    }
+    
+    
 
 }
