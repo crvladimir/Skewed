@@ -49,6 +49,9 @@
     h1{
         font-size: 80px;
     }
+    .navbar-nav{
+    background: transparent;
+   }
     .achievements .achievements-wrapper{
         margin-bottom: 150px;
     }

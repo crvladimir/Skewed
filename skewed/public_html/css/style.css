@@ -41,12 +41,9 @@ main section{
 /*Header Start*/
 
 header {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.3);
     padding: 25px 0;
 }
-/*.navbar .navbar-brand{
-    font-weight: bold;
-}*/
 .navbar .navbar-toggler {
     color: rgba(0, 0, 0, 0.5);    
     border-color: rgba(255, 255, 255, 0.6);
@@ -71,7 +68,9 @@ header {
 .navbar .nav-item{
     text-align: center;
 }
-
+.navbar-nav{
+    background: #000;
+   }
 /*Lead Section*/
 h1{
     font-size: 50px;
